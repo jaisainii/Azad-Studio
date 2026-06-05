@@ -12,14 +12,21 @@ body {
   padding: 90px 20px;
   background: #1a1a1a;
 }
+
 .card {
   background: #1c1c1c;
+  color: #ffffff;
+  padding: 20px;
   border-radius: 12px;
+  width: 160px;
+  text-align: center;
+  transition: 0.3s;
+  border: 1px solid #333;
 }
 
 .card:hover {
-  transform: scale(1.05);
-  transition: 0.3s;
+  transform: translateY(-5px);
+  background: #2a2a2a;
 }
 
 h1, h2 {
