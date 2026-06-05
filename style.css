@@ -12,7 +12,19 @@ body {
   padding: 90px 20px;
   background: #1a1a1a;
 }
+.card {
+  background: #1c1c1c;
+  border-radius: 12px;
+}
 
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+h1, h2 {
+  color: #ffffff;
+}
 
 
 h1 {
