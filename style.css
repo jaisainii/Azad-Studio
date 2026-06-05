@@ -9,24 +9,29 @@ body {
 
 .hero {
   text-align: center;
-  padding: 90px 20px;
-  background: #1a1a1a;
+  padding: 140px 20px;
+  background: linear-gradient(
+    135deg,
+    #111111,
+    #1e1e1e,
+    #111111
+  );
 }
 
 .card {
-  background: #1c1c1c;
-  color: #ffffff;
+  background: #1f1f1f;
+  color: white;
   padding: 20px;
   border-radius: 12px;
-  width: 160px;
+  width: 180px;
   text-align: center;
-  transition: 0.3s;
-  border: 1px solid #333;
+  border: 1px solid #444;
+  transition: all 0.3s ease;
 }
 
 .card:hover {
   transform: translateY(-5px);
-  background: #2a2a2a;
+  background: #2d2d2d;
 }
 
 h1, h2 {
