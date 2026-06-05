@@ -1,29 +1,19 @@
 /* LIGHT MODE DEFAULT */
 body {
   margin: 0;
-  font-family: Arial;
-  background: white;
-  color: black;
-  transition: 0.3s;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: #ffffff;
 }
 
-/* DARK MODE */
-.dark {
-  background: #121212;
-  color: white;
-}
 
-/* HERO */
 .hero {
   text-align: center;
   padding: 90px 20px;
-  background: #f5f7ff;
+  background: #1a1a1a;
 }
 
-/* DARK HERO */
-.dark .hero {
-  background: #1e1e1e;
-}
+
 
 h1 {
   font-size: 60px;
